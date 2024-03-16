@@ -1,3 +1,139 @@
+h1{
+    text-align: center;
+    color: brown;
+}
+p{
+    text-align: center;
+}
+.films{
+    display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: navy;
+    background-image:linear-gradient(to right,white, orange, brown); 
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.asd{
+     background-image:linear-gradient(to right,white, orange, brown);
+}
+.submit-form {
+    width: 100%;
+    display: flex;
+    border: 1px solid #5D4229;
+    border-bottom: none;
+    box-sizing: border-box;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 1em;
+}
+
+
+.submit-btn {
+    width: 50%;
+    box-sizing: border-box;
+    background: #C2AB99;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.submit-btn-calc {
+    border-bottom-left-radius: 5px;
+    padding: .5em;
+    border-right: .5px solid #D1BBAA;
+    border-left: 1px solid #5D4229;
+    border-bottom: 1px solid #5D4229;
+}
+
+.submit-btn-send {
+    border-bottom-right-radius: 5px;
+    padding: .5em;
+    border-left: .5px solid #D1BBAA;
+    border-right: 1px solid #5D4229;
+    border-bottom: 1px solid #5D4229;
+}
+
+.submit-form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.submit-input,
+.submit-select {
+    font-family: 'Montserrat', sans-serif;
+    background: transparent;
+    border: none;
+    padding: .5em;
+    border-bottom: 1px solid #5D4229;
+    font-size: 1.1em;
+    box-sizing: border-box;
+}
+
+.submit-input:active,
+.submit-input:focus,
+.submit-select:active,
+.submit-select:focus {
+    border-bottom: 1px solid #5D4229;
+    outline: none;
+}
+
+.submit-select {
+    /* border: none; */
+    padding: calc(.5em - 1px);
+}
+
+
+.submit-input-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.group {
+    width: calc(50% - 2px);
+    margin: 0;
+    padding: 0;
+}
+
+.row-item {
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.submit-btn-row{
+    display: flex;
+}
+.btn_ok{
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+.block{
+    height: 50px;
+    width:50px;
+    border-radius: 50px;
+    background-color: rgb(248, 248, 248);
+    position: absolute;
+}
+
+
+
+.row{
+    float: right;
+    margin-right: 100px;
+}
+
+
 .circle {
     position: absolute;
     width: 50px;
